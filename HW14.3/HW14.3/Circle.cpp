@@ -1,6 +1,9 @@
 #include "stdafx.h"
 #include "Circle.h"
 
+//PT -- need to declare the static variable
+// int Circle::numberOfObjects = 0;
+
 Circle::Circle()
 {
 	radius = 1;    
